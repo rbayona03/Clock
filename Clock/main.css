@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  text-transform: uppercase;
+}
+
+#clock {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  color: greenyellow;
+  position: relative;
+  top: 43%;
+}
+
+.clockFrame {
+  background-color: rgb(83, 81, 81);
+  height: 40vh;
+  border-radius: 48%;
+  padding: 3rem;
+  border: 3px solid green;
+}
